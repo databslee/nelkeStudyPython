@@ -16,7 +16,7 @@ def faa(data):
             c+=faa(i)
         else:
             c.append(i)
-    print (c)
+    return c
 
 plus(1,2,3,4,5)
-faa([1,2,[3,4,5],6,7])
+print(faa([1,2,[3,4,5],6,7]))
